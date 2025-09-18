@@ -66,3 +66,60 @@ body{
     cursor: pointer;
     margin-top: 15px; 
 }
+
+.explanationSec{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 50px;
+}
+
+.explanationSec h1{
+    font-size: 36px;
+    color: #1F2937;
+    font-weight: 900;
+}
+
+.cards{
+    display: flex;
+    justify-content: center;
+    gap: 75px;
+    padding: 50px;
+    flex-wrap: wrap;
+}
+
+.cards div{
+    width: 175px;
+    text-align: center;
+}
+
+.cards div img{
+    border-radius: 8px;
+}
+
+.cards div p{
+    color: #1F2937;
+    opacity: 80%;
+    margin: 8px;
+}
+
+.ReviewSec{
+    background-color: #E5E7EB;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.ReviewContent{
+    font-size: 36px;
+    color: #1f2937;
+    font-weight: 300;
+}
+
+.ReviewBy{
+    font-size: 18px;
+    font-weight: 800;
+    align-self: flex-end;
+}
