@@ -32,15 +32,16 @@ body{
 .mainContent{
     background-color: #1f2937;
     color: #F9FAF8;
+    padding: 10%;
     display: flex;
     justify-content: center;
     align-items: center;
-    padding: 100px;
+    flex-wrap: wrap;
     gap: 50px;
 }
 
 .mainInfo{
-    width: 27vw;
+    max-width: 27vw;
 }
 
 .mainInfo h1{
@@ -104,7 +105,7 @@ body{
     margin: 8px;
 }
 
-.ReviewSec{
+.reviewSec{
     background-color: #E5E7EB;
     display: flex;
     flex-direction: column;
@@ -112,14 +113,66 @@ body{
     align-items: center;
 }
 
+.ReviewCover{
+    max-width: 50vw;
+    padding: 10vw;
+    display: flex;
+    flex-direction: column;
+}
+
 .ReviewContent{
     font-size: 36px;
     color: #1f2937;
     font-weight: 300;
+    font-style: italic;
 }
 
 .ReviewBy{
-    font-size: 18px;
-    font-weight: 800;
+    font-size: 22px;
+    font-weight: 900;
     align-self: flex-end;
+    opacity: 80%;
+    margin-top: 10px;
+    align-self: flex-end;
+}
+
+.ctoaSec{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 8vw;
+}
+
+.ctoaWrap{
+    background-color: #3882F6;
+    color: white;
+    padding: 2vw 8vw;
+    border-radius: 8px;
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+    gap: 15vw;
+    flex-wrap: wrap;
+}
+
+.ctoaContent h1{
+    font-size: 22px;
+    margin-bottom:0;
+}
+
+.ctoaContent p{
+    margin-top: 3px;
+    opacity: 80%;
+}
+
+.ctoaButton button{
+    padding: 8px 32px;
+    background-color: #3882F6;
+    border: 2px solid #F9FAF8;
+    color: #F9FAF8;
+    font-size: 18px;
+    font-weight: 600;
+    border-radius: 8px;
+    cursor: pointer;
+    margin-bottom: 10px;
 }
