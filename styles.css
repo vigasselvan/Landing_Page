@@ -176,3 +176,13 @@ body{
     cursor: pointer;
     margin-bottom: 10px;
 }
+
+.Footer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #1f2937;
+    color: #F9FAF8;
+    padding: 1vw;
+    opacity: 90%;
+}
